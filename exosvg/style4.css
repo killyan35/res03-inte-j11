@@ -1,32 +1,36 @@
+svg {
+    height:100vh;
+}
 .brasgauche1 {
     animation-name : bras1;
     animation-delay: 1s;
-    animation-duration: 3s;
+    animation-duration: 3.2s;
     animation-fill-mode: forwards;
-    
+    transform-origin: center;
     
 }
 @keyframes bras1 {
     from {
         
     }
-    to {
-       transform:translateY(27vh) translateX(-20vh) ;
+    to { transform:translateY(20vh) translateX(-20vh) rotate(-10deg);
+        
     }
+    
 }
 .brasgauche2 {
     animation-name : bras2;
     animation-delay: 1s;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-  
+   
     
 }
 @keyframes bras2 {
     from {
         
     }
-    to { transform:translateY(10vh) translateX(95vh) rotate(45deg);
+    to { transform:translateY(10vh) translateX(85vh) rotate(41deg);
         
     }
 }
@@ -104,12 +108,65 @@
     animation-fill-mode: forwards;
     transform-origin: center;
     
+    
 }
-@keyframes corps {
+@keyframes jambeg1 {
     from {
         
     }
     to {
-        transform:rotate(-25deg)
+        transform:translateY(30vh) rotate(25deg) 
 }
 }
+.jambegauche2 {
+    animation-name : jambeg2;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    
+    
+}
+@keyframes jambeg2 {
+    from {
+        
+    }
+    to {
+        transform:translateY(30vh) rotate(25deg) 
+}
+}
+.jambedroit1 {
+    animation-name : jambed1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    
+    
+}
+@keyframes jambed1 {
+    from {
+        
+    }
+    to {
+        transform:translateY(0vh) rotate(-25deg) 
+}
+}
+.jambedroit2 {
+    animation-name : jambed2;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    
+    
+}
+@keyframes jambed2 {
+    from {
+        
+    }
+    to {
+        transform:translateY(0vh) rotate(-25deg) 
+}
+}
+
