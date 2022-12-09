@@ -1,0 +1,166 @@
+.st3 {
+    animation-name : move;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes move {
+    5% {
+        transform:translateX(-5vh)
+        translateY(1vh)
+       
+    }
+    10% {
+        transform:translateX(-10vh)
+        translateY(5vh)
+       
+    }
+    15% {
+        transform:translateX(-15vh)
+        translateY(10vh)
+       
+    }
+    20% {
+        transform:translateX(-20vh)
+        translateY(15vh)
+        
+    }
+    25% {
+        transform:translateX(-25vh)
+        translateY(20vh)
+       
+    }
+
+    30% {
+        transform:translateX(-30vh)
+        translateY(25vh)
+        
+    }
+    35% {
+        transform:translateX(-40vh)
+        translateY(30vh)
+       
+    }
+    40% {
+        transform:translateX(-45vh)
+        translateY(35vh)
+        
+       
+    }
+    45% {
+        transform:translateX(-50vh)
+        translateY(35vh)
+       
+    }
+    50% {
+        transform:translateX(-55vh)
+        translateY(35vh)
+        
+       
+    }
+    55% {
+        transform:translateX(-60vh)
+        translateY(35vh)
+       
+    }
+    60% {
+        transform:translateX(-65vh)
+        translateY(30vh)
+       
+    }
+    65% {
+        transform:translateX(-70vh)
+        translateY(25vh)
+       
+    }
+    70% {
+        transform:translateX(-75vh)
+        translateY(20vh)
+        
+    }
+    75% {
+        transform:translateX(-80vh)
+        translateY(15vh)
+       
+    }
+
+    80% {
+        transform:translateX(-85vh)
+        translateY(10vh)
+        
+    }
+    85% {
+        transform:translateX(-95vh)
+        translateY(5vh)
+       
+    }
+    90% {
+        transform:translateX(-100vh)
+        translateY(0vh)
+        
+       
+    }
+    95% {
+        transform:translateX(-105vh)
+        translateY(-5vh)
+       
+    }
+    100% {
+        transform:translateX(-110vh)
+        translateY(-10vh)
+        
+       
+    }
+}
+.d1 {
+    animation-name : move2;
+    animation-delay: 4s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes move2 {
+    
+    100% {
+        transform:
+        translateY(-90vh)
+    }
+}
+.d2 {
+    animation-name : move3;
+    animation-delay: 4s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes move3 {
+    
+    100% {
+        transform:
+        translateY(-90vh)
+    }
+}
+.d3 {
+    animation-name : move4;
+    animation-delay: 4s;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+@keyframes move4 {
+    
+    100% {
+        transform:
+        translateY(-90vh)
+    }
+}
+.d4 {
+    animation-name : move5;
+    animation-delay: 4s;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+@keyframes move5 {
+    
+    100% {
+        transform:
+        translateY(-90vh)
+    }
+}

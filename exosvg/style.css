@@ -55,9 +55,141 @@ figure {
 
 
 /* EXERCICE 2 */
+.tiny-bubble {
+    animation-name : bulle1;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bulle1 {
+    from {
+        
+    }
+    to {
+        transform:translateY(-50vh)
+    }
+}
+.small-bubble {
+    animation-name : bulle2;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bulle2 {
+    from {
+        
+    }
+    to {
+        transform:translateY(-40vh)
+    }
+}
+.middle-bubble {
+    animation-name : bulle3;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bulle3 {
+    from {
+        
+    }
+    to {
+        transform:translateY(-30vh)
+    }
+}
+.big-bubble {
+    animation-name : bulle4;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bulle4 {
+    from {
+        
+    }
+    to {
+        transform:translateY(-20vh)
+    }
+}
+
 
 
 /* EXERCICE 3 */
+#eq1-1,#eq2-1,#eq3-1,#eq4-1 {
+    animation-name : eq1;
+    animation-delay: 0.25s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes eq1 {
+    from {
+        
+    }
+    to {
+        fill:#7400b8;
+    }
+}
+#eq1-2,#eq2-2,#eq3-2,#eq4-2 {
+    animation-name : eq2;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes eq2 {
+    from {
+        
+    }
+    to {
+        fill:#5e60ce;
+    }
+}
+#eq1-3,#eq2-3,#eq3-3 {
+    animation-name : eq3;
+    animation-delay: 0.75s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes eq3 {
+    from {
+        
+    }
+    to {
+        fill:#4ea8de;
+    }
+}
+
+#eq3-4, #eq2-4{
+    animation-name : eq4;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes eq4 {
+    from {
+        
+    }
+    to {
+        fill:#56cfe1;
+    }
+}
+#eq2-5{
+    animation-name : eq5;
+    animation-delay: 1.25s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes eq5 {
+    from {
+        
+    }
+    to {
+        fill:#72efdd;
+    }
+}
 
 /*
     couleurs :
@@ -71,6 +203,17 @@ figure {
 #ex3 figure {
     max-width:40%;
     max-height:40%;
+}
+.st23 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset:0;
+  }
 }
 
 /* EXERCICE 4 */
