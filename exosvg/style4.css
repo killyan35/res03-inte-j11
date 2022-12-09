@@ -1,0 +1,115 @@
+.brasgauche1 {
+    animation-name : bras1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+    
+}
+@keyframes bras1 {
+    from {
+        
+    }
+    to {
+       transform:translateY(27vh) translateX(-20vh) ;
+    }
+}
+.brasgauche2 {
+    animation-name : bras2;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  
+    
+}
+@keyframes bras2 {
+    from {
+        
+    }
+    to { transform:translateY(10vh) translateX(95vh) rotate(45deg);
+        
+    }
+}
+.brasdroit1 {
+    animation-name : brasd1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    
+    
+}
+@keyframes brasd1 {
+    from {
+        
+    }
+    to {
+       transform:translateY(-40vh) translateX(50vh) rotate(-85deg) ;
+    }
+}
+.brasdroit2 {
+    animation-name : brasd2;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    
+    
+}
+@keyframes brasd2 {
+    from {
+        
+    }
+    to {
+       transform:translateY(-40vh) translateX(50vh) rotate(-85deg);
+    }
+}
+.head1 { 
+    animation-name : head;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    
+    
+}
+@keyframes head {
+    from {
+        
+    }
+    to {
+       transform:translateY(-30vh) translateX(10vh) rotate(-55deg);
+    }
+}
+.corps {
+    animation-name : corps;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    
+}
+@keyframes corps {
+    from {
+        
+    }
+    to {
+        transform:rotate(-25deg)
+}
+}
+.jambegauche1 {
+    animation-name : jambeg1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    
+}
+@keyframes corps {
+    from {
+        
+    }
+    to {
+        transform:rotate(-25deg)
+}
+}

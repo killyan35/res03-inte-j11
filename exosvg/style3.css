@@ -1,0 +1,43 @@
+.v1 {
+    animation-name : couleur1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    
+}
+@keyframes couleur1 {
+    from {
+        
+    }
+    to {
+        fill:green;
+    }
+}
+.r1 {
+    animation-name : couleur2;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: backwards ;
+}
+@keyframes couleur2 {
+    from {
+        
+    }
+    to {
+        fill:red;
+    }
+}
+.o1 {
+    animation-name : couleur3;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+@keyframes couleur3 {
+    from {
+        
+    }
+    to {
+        fill:orange;
+    }
+}
